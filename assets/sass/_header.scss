@@ -1,0 +1,43 @@
+/*---------------------------------------
+  -             header.scss              -
+  ---------------------------------------*/
+  .header-top{
+
+     color: $prayColor; 
+     font-size: 13px; 
+     font-weight: 400; 
+     margin:5px 0; 
+
+  	.header-contact{
+
+  		p{
+  			display: inline-block;
+  			font-size: 13px;
+   
+          
+
+  		  a{
+  		  	color: $prayColor;
+  		  }
+  		}
+  	}
+  	.header-search{
+
+  		input{
+  			border: none;
+  			border-bottom:1.5px solid $prayColor;
+  		}
+  	}
+  	.header-signUp{
+
+  		option,select{
+  		color: $prayColor;	
+  		border: none;
+  		}
+  		p{
+  			color: $prayColor;
+  			display: inline-block;
+  		}
+  	}
+
+  }

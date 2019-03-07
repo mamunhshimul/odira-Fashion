@@ -1,13 +1,63 @@
-/*===========reset_code==========*/
-*{
-	margin: 0;
-	padding: 0;
+/*---------------------------------------
+  -             reset_code              -
+  ---------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
 }
-h1,h2,h3,h4,h4,h6{
-	margin: 0px;
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
 }
-/*===========reset_code==========*/
-/*===========reset_code==========*/
-/*===========reset_code==========*/
-/*===========reset_code==========*/
-/*===========reset_code==========*/
+
+a, a:hover {
+  color: black;
+}
+
+/*---------------------------------------
+  -             header.scss              -
+  ---------------------------------------*/
+.header-top {
+  color: #591D01;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+.header-top .header-contact p {
+  display: inline-block;
+  font-size: 13px;
+}
+.header-top .header-contact p a {
+  color: #591D01;
+}
+.header-top .header-search input {
+  border: none;
+  border-bottom: 1.5px solid #591D01;
+}
+.header-top .header-signUp option, .header-top .header-signUp select {
+  color: #591D01;
+  border: none;
+}
+.header-top .header-signUp p {
+  color: #591D01;
+  display: inline-block;
+}
+
+/*---------------------------------------
+-             reset_code              -
+---------------------------------------*/
+/*---------------------------------------
+-             reset_code              -
+---------------------------------------*/
+/*---------------------------------------
+-             reset_code              -
+---------------------------------------*/
+/*---------------------------------------
+-             reset_code              -
+---------------------------------------*/
+/*---------------------------------------
+-             reset_code              -
+---------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */
