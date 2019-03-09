@@ -44,6 +44,17 @@ a, a:hover {
   display: inline-block;
 }
 
+.header-nav .logo h1 {
+  color: black;
+  font-size: 22px;
+}
+.header-nav #navbarColor02 ul li a {
+  color: #591D01;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
 /*---------------------------------------
 -             reset_code              -
 ---------------------------------------*/
