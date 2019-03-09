@@ -13,6 +13,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 a, a:hover {
   color: black;
+  font-size: 15px;
+}
+
+.adira_btn {
+  background: #591D01;
+  color: #fff;
+  font-weight: 500;
+  padding: 3px 10px;
 }
 
 /*---------------------------------------
@@ -53,6 +61,33 @@ a, a:hover {
   font-weight: 500;
   font-size: 15px;
   text-transform: capitalize;
+}
+
+/*---------------------------------------
+  -             slider.scss              -
+  ---------------------------------------*/
+#slider-area {
+  background-color: #EEE9E6;
+  height: 85vh;
+  width: 100%;
+}
+#slider-area .slider-content {
+  margin: 30% 0;
+}
+#slider-area .slider-content h2 {
+  vertical-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+#slider-area .slider-content h4 {
+  margin: 3px 0 30px 0;
+  text-transform: uppercase;
+}
+#slider-area .slider-bg {
+  margin: 15% 0;
+}
+#slider-area .slider-bg img {
+  width: 100%;
 }
 
 /*---------------------------------------
